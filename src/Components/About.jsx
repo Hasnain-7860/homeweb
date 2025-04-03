@@ -32,10 +32,10 @@ const About = () => {
                     </div>
 
                 </div>
-
+                <p className='my-10 max-w-lg'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni similique possimus fuga fugiat in, nesciunt minus quasi, dolorum repellendus temporibus earum voluptas eos commodi quibusdam dignissimos rem voluptatum veniam odio totam culpa et recusandae eius ducimus cum. A aspernatur vitae quia veritatis. Deserunt, quasi quidem.</p>
+            <button className='bg-blue-600 text-white px-8 py-2 rounded' >Learn more</button>
             </div>
           </div>
-          <p>sdflsjdfldjf</p>
           </div>
 
   )
