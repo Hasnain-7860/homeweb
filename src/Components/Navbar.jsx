@@ -9,7 +9,7 @@ const Navbar = () => {
             <img className='' src={assets.logo} alt="" />
             <ul className='hidden md:flex gap-7 text-white'>
                 <li className='cursor-pointer hover:text-gray-400'>Home</li>
-                <li className='cursor-pointer hover:text-gray-400'>About</li>
+                <li  className='cursor-pointer hover:text-gray-400'><a href="#About"> About</a></li>
                 <li className='cursor-pointer hover:text-gray-400'>Projects</li>
                 <li className='cursor-pointer hover:text-gray-400'>Testimonials</li>
             </ul>
