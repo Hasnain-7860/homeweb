@@ -291,28 +291,42 @@
 
 //array
 
-import { data } from 'autoprefixer';
-import React from 'react'
-const people = [
-  'Creola Katherine Johnson: mathematician',
-  'Mario José Molina-Pasquel Henríquez: chemist',
-  'Mohammad Abdus Salam: physicist',
-  'Percy Lavon Julian: chemist',
-  'Subrahmanyan Chandrasekhar: astrophysicist'
-];
+// import { data } from 'autoprefixer';
+// import React from 'react'
+// const people = [
+//   'Creola Katherine Johnson: mathematician',
+//   'Mario José Molina-Pasquel Henríquez: chemist',
+//   'Mohammad Abdus Salam: physicist',
+//   'Percy Lavon Julian: chemist',
+//   'Subrahmanyan Chandrasekhar: astrophysicist'
+// ];
 
-const App = () => {
-  const listItems = people.map(data=>
-    <li>{data}</li>
-  )
-  return (
-    <div>
-      <ul>{listItems}</ul>
-    </div>
-  )
+// const App = () => {
+//   const listItems = people.map(data=>
+//     <li>{data}</li>
+//   )
+//   return (
+//     <div>
+//       <ul>{listItems}</ul>
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+
+function Cup({ guest }) {
+  return <h2>Tea cup for guest #{guest}</h2>;
 }
 
-export default App
+export default function TeaGathering() {
+  let cups = [];
+  for (let i = 1; i <= 12; i++) {
+    cups.push(<Cup key={i} guest={i} />);
+  }
+  return cups;
+}
 
 
 
