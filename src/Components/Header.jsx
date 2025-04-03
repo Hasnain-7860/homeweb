@@ -5,6 +5,13 @@ const Header = () => {
   return (
     <div className='min-h-screen mb-4 bg-cover bg-center flex items-center w-full overflow-hidden' style={{backgroundImage: "url('/header_img.png')"}} id='Header'>
         <Navbar/>
+        <div className='container text-center mx-auto py-4 px-6 md:px-20 lg:32 text-white'>
+            <h2 className='text-5xl md:text-[82px] lg:5xl max-w-7xl font-semibold pt-20'>Explore homes that fit your dreams</h2>
+            <div className='flex items-center text-center justify-center space-x-6 mt-16'>
+                <li className='list-none border border-white px-8 py-3 rounded'>Projects</li>
+                <li className='list-none bg-blue-500 px-8 py-3 rounded'>Contact Us</li>
+            </div>
+        </div>
     </div>
   )
 }
