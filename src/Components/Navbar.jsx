@@ -10,10 +10,10 @@ const Navbar = () => {
             <ul className='hidden md:flex gap-7 text-white'>
                 <li className='cursor-pointer hover:text-gray-400'><a href="#Home"> Home </a></li>
                 <li  className='cursor-pointer hover:text-gray-400'><a href="#About"> About</a></li>
-                <li className='cursor-pointer hover:text-gray-400'> <a href="#Projects">Projects</a></li>
+                <li className='cursor-pointer hover:text-gray-400'> <a href="#Project">Projects</a></li>
                 <li className='cursor-pointer hover:text-gray-400'><a href="#Testimonials">Testimonials</a></li>
             </ul>
-            <button className='hidden md:block bg-white py-2  px-8 rounded-full '>Sign up</button>
+            <button className='hidden md:block bg-white py-2  px-8 rounded-full 'onClick={ alert}>Sign up</button>
             <img onClick={()=>setShowMobileMenu(true)} className='md:hidden w-7 cursor-pointer' src={assets.menu_icon} alt="" />
         </div>
         <div className={`md:hidden ${showMobileMenu? 'fixed w-full':'h-0 w-0'} fixed w-full right-0 top-0 bottom-0 overflow-hidden bg-white transition-all`}>
