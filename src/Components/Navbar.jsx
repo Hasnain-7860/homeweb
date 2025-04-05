@@ -23,8 +23,8 @@ const Navbar = () => {
             <ul className='flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium'>
                 <li className='px-4  py-2 rounded-full inline-block'>Home</li>
                 <li className='px-4  py-2 rounded-full inline-block'><a href="#About"> About</a></li>
-                <li className='px-4  py-2 rounded-full inline-block'>Projects</li>
-                <li className='px-4  py-2 rounded-full inline-block'>Testimonials</li>
+                <li className='px-4  py-2 rounded-full inline-block'><a href="#Project"> Projects </a></li>
+                <li className='px-4  py-2 rounded-full inline-block'><a href="#Testimonials"> Testimonials </a></li>
 
             </ul>
         </div>
