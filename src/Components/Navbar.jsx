@@ -21,7 +21,7 @@ const Navbar = () => {
                 <img className='w-6 ' onClick={()=>setShowMobileMenu(false)} src={assets.cross_icon}  alt="" />
             </div>
             <ul className='flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium'>
-                <li className='px-4  py-2 rounded-full inline-block'>Home</li>
+                <li className='px-4  py-2 rounded-full inline-bloc'>Home</li>
                 <li className='px-4  py-2 rounded-full inline-block'><a href="#About"> About</a></li>
                 <li className='px-4  py-2 rounded-full inline-block'><a href="#Project"> Projects </a></li>
                 <li className='px-4  py-2 rounded-full inline-block'><a href="#Testimonials"> Testimonials </a></li>

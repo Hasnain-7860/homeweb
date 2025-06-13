@@ -6,11 +6,13 @@ import Testimonials from './Components/Testimonials'
 import Contact from './Components/Contact'
 import { ToastContainer } from 'react-toastify';
 import Footer from './Components/Footer'
+import { BrowserRouter } from 'react-router-dom'
 
 
 const App = () => {
   return (
     <div>
+      <BrowserRouter>
       <ToastContainer/>
       <Header/>
       <About/>
@@ -18,6 +20,7 @@ const App = () => {
       <Testimonials/>
       <Contact/>
       <Footer/>
+      </BrowserRouter>
     </div>
   )
 }

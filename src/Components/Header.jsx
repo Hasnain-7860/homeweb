@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from './Navbar'
 import {motion} from "framer-motion";
+import { Link } from 'react-router-dom';
+import Contact from './Contact';
 
 
 const Header = () => {
@@ -21,7 +23,7 @@ const Header = () => {
             <h2 className='text-5xl md:text-[82px] lg:5xl max-w-7xl font-semibold pt-20'>Explore homes that fit your dreams</h2>
             <div className='flex items-center text-center justify-center space-x-6 mt-16'>
                 <li className='list-none border border-white px-8 py-3 rounded'>Projects</li>
-                <li className='list-none bg-blue-500 px-8 py-3 rounded'>Contact Us</li>
+                <Link><li className='list-none bg-blue-500 px-8 py-3 rounded'>Contact Us</li></Link>
             </div>
         </motion.div>
     </div>
